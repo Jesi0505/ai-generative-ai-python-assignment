@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO3QU912Av8HyWWyY6Wnnck",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jesi0505/ai-generative-ai-python-assignment/blob/main/running\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LtJ84WyVdNE-",
+        "outputId": "8ba44144-15e7-4ae6-e5c7-f41b3334fecb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'ai-generative-ai-python-assignment'...\n",
+            "remote: Enumerating objects: 30, done.\u001b[K\n",
+            "remote: Counting objects: 100% (30/30), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (20/20), done.\u001b[K\n",
+            "Receiving objects: 100% (30/30), 7.62 KiB | 3.81 MiB/s, done.\n",
+            "Resolving deltas: 100% (6/6), done.\n",
+            "remote: Total 30 (delta 6), reused 3 (delta 1), pack-reused 0 (from 0)\u001b[K\n"
+          ]
+        }
+      ],
+      "source": [
+        "!git clone https://github.com/Jesi0505/ai-generative-ai-python-assignment.git"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%cd ai-generative-ai-python-assignment/Mini_Project"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vVTawDQ0doQR",
+        "outputId": "b58a12dd-8998-4d64-effb-25a0b706ba29"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/ai-generative-ai-python-assignment/Mini_Project\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!ls"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LWBux6n-dsXe",
+        "outputId": "746023b3-98f7-4e19-aef8-5302a53d7fdb"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "grade_utils.py\tREADME.md  student_grade_system.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!python student_grade_system.py"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aD3GjxP0dv7J",
+        "outputId": "05ce5cb8-5572-4108-dd07-f260ccec596a"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===== STUDENT GRADE MANAGEMENT SYSTEM =====\n",
+            "Enter student name: Jesima \n",
+            "Enter marks for Python: 95\n",
+            "Enter marks for Mathematics: 95\n",
+            "Enter marks for English: 96\n",
+            "Enter marks for Computer Science: 85\n",
+            "Enter marks for AI: 90\n",
+            "\n",
+            "----- STUDENT RESULT -----\n",
+            "Student Name: Jesima \n",
+            "Marks: [95.0, 95.0, 96.0, 85.0, 90.0]\n",
+            "Total Marks: 461.0\n",
+            "Percentage: 92.2 %\n",
+            "Grade: A+\n",
+            "Result: PASS\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
